@@ -67,3 +67,46 @@ in Boolean Conversion
 
 similarly we can convert to String, Object etc. as well
 */
+
+
+
+// ************** Operations **************
+let value = 3;
+let negativeValue = -value
+
+console.log(negativeValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2**3)  //2 to the power 3
+console.log(6%4)
+
+let str1 = "Hello"
+let str2 = " Riya"
+
+let str3 = str1 + str2
+console.log(str3)           //performs concatenation
+
+console.log(1 + "2")        //shows 12 too
+console.log("1" + 2)        //shows 12 too
+console.log("1" + 2 + 2)        //shows 122
+console.log(1 + 2 + "2")        //shows 32
+
+
+console.log(+true)   //gives 1
+console.log(+ "")   //gives 0
+
+
+let num1, num2, num3, num4
+
+num1 = num2 = num3 = num4 = 2 + 2   // assigns 4 to all
+console.log(num1)
+console.log(num2)
+console.log(num3)
+console.log(num4)
+
+let counter = 101
+counter++
+console.log(counter)      //102
