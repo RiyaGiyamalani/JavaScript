@@ -15,27 +15,27 @@ Instead, the JavaScript engine automatically determines the data type at runtime
 based on the value currently assigned to it.
 */
 
-// const id1 = Symbol('124')
-// const id2 = Symbol('124')
+const id1 = Symbol('124')
+const id2 = Symbol('124')
 
-// console.log(id1 == id2);     //gives false
+console.log(id1 == id2);     //gives false
 
-// const bigNo = 18014398509481984n
+const bigNo = 18014398509481984n
 
-// console.log(typeof bigNo);      //gives bigInt
+console.log(typeof bigNo);      //gives bigInt
 
-// const names = ["abc", "def", "ghi", "jkl"]   //array
-// let myObj = {
-//     name : "Riya",
-//     age : 20
-// }                             //object
+const names = ["abc", "def", "ghi", "jkl"]   //array
+let myObj = {
+    name : "Riya",
+    age : 20
+}                             //object
 
-// const myFunction = function(){
-//     console.log("Hello")
-// }
+const myFunction = function(){
+    console.log("Hello")
+}
 
 
-// console.log(typeof myFunction);      //gives function but is actually object function
+console.log(typeof myFunction);      //gives function but is actually object function
 
 
 
