@@ -39,3 +39,35 @@ console.log(Object.entries(user));         //[ [ 'id', 'abcd' ], [ 'name', 'riya
 
 console.log(user.hasOwnProperty('isLoggedIn'));         //true
 
+
+
+
+// ****************Object Destructuring*****************
+
+const course= {
+    courseName: "B.Tech.",
+    coursePrice: "1000000",
+    specialization: "CS"
+}
+
+const {courseName} = course
+console.log(courseName);                //B.Tech.
+
+const {courseName : CN} = course
+console.log(CN);                //B.Tech.
+
+
+
+//API
+
+/* 
+*******JSON => JS Object Notation**********
+{
+    courseName: "B.Tech.",
+    coursePrice: "1000000",
+    specialization: "CS"
+}
+***************OR**********
+[ {}, {}, {}]
+ */
+
